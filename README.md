@@ -34,20 +34,19 @@ behavior rather than relying on built-in libraries.
 
 ## Project Structure
 
-c-data-structures/
-├── include/                # Public header files (APIs)
-│   ├── stack.h
-│   ├── queue.h
-│   └── linked_list.h
-├── src/                    # Implementations
-│   ├── stack.c
-│   ├── queue.c
-│   └── linked_list.c
-├── tests/                  # Simple test driver
-│   └── main.c
-├── Makefile
-└── README.md
-
+- **c-data-structures/**
+  - **include/** — Public header files (APIs)
+    - `stack.h`
+    - `queue.h`
+    - `linked_list.h`
+  - **src/** — Implementations
+    - `stack.c`
+    - `queue.c`
+    - `linked_list.c`
+  - **tests/** — Simple test driver
+    - `main.c`
+  - `Makefile`
+  - `README.md`
 
 
 ---
