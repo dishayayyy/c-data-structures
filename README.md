@@ -60,26 +60,3 @@ c-data-structures/
 gcc -Wall -Wextra -Iinclude src/*.c tests/main.c -o ds_test
 ./ds_test
 
----
-
-## Using Make
-
-```bash
-make
-./ds_test
-
----
-
-## Clean the build
-
-```bash 
-make clean
-
----
-
-## Sample Output
-```bash
-Stack pop: 20
-Queue dequeue: 1
-5 -> 10 -> NULL
-
