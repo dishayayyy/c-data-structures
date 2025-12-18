@@ -35,18 +35,19 @@ behavior rather than relying on built-in libraries.
 ## Project Structure
 
 c-data-structures/
-├── include/ # Public header files (APIs)
-│ ├── stack.h
-│ ├── queue.h
-│ └── linked_list.h
-├── src/ # Implementations
-│ ├── stack.c
-│ ├── queue.c
-│ └── linked_list.c
-├── tests/ # Simple test driver
-│ └── main.c
+├── include/                # Public header files (APIs)
+│   ├── stack.h
+│   ├── queue.h
+│   └── linked_list.h
+├── src/                    # Implementations
+│   ├── stack.c
+│   ├── queue.c
+│   └── linked_list.c
+├── tests/                  # Simple test driver
+│   └── main.c
 ├── Makefile
 └── README.md
+
 
 
 ---
@@ -59,14 +60,26 @@ c-data-structures/
 gcc -Wall -Wextra -Iinclude src/*.c tests/main.c -o ds_test
 ./ds_test
 
-Using Make
+---
+
+## Using Make
+
+```bash
 make
 ./ds_test
 
-To clean the build:
+---
+
+## Clean the build
+
+```bash 
 make clean
 
-Sample Output
+---
+
+## Sample Output
+```bash
 Stack pop: 20
 Queue dequeue: 1
 5 -> 10 -> NULL
+
