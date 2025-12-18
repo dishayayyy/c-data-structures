@@ -48,7 +48,6 @@ behavior rather than relying on built-in libraries.
   - `Makefile`
   - `README.md`
 
-
 ---
 
 ## Build and Run
@@ -59,3 +58,39 @@ behavior rather than relying on built-in libraries.
 gcc -Wall -Wextra -Iinclude src/*.c tests/main.c -o ds_test
 ./ds_test
 
+```
+## Using Make
+```bash
+make
+./ds_test
+```
+## Clean the build
+```bash
+make clean
+```
+## Sample Output
+```bash
+Stack pop: 20
+Queue dequeue: 1
+5 -> 10 -> NULL
+```
+### Design Decisions
+
+- No global variables are used; all state is encapsulated in structures.
+
+- No external libraries are used beyond the C standard library.
+
+- Functions return error codes instead of terminating the program.
+
+- Each data structure provides explicit cleanup functions to avoid memory leaks.
+
+### Why This Project
+
+This project was built to strengthen understanding of how core data structures
+work internally, how heap memory is managed in C, and how to write clean,
+maintainable low-level code without relying on external libraries.
+
+### Author
+
+**Built as a learning project to reinforce systems programming and computer
+science fundamentals./**
