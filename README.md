@@ -90,7 +90,5 @@ This project was built to strengthen understanding of how core data structures
 work internally, how heap memory is managed in C, and how to write clean,
 maintainable low-level code without relying on external libraries.
 
-### Author
-
 **Built as a learning project to reinforce systems programming and computer
-science fundamentals./**
+science fundamentals.**
